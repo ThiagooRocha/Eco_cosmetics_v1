@@ -1,0 +1,46 @@
+.header {
+    padding-block: 15px;
+}
+
+.header__banner {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+.header__top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__top img {
+    width: 24px;
+}
+
+.header__bottom {
+    margin-top: 20px;
+};
+
+.header_infos .shop_btn {
+    margin-top: 30px;
+}
+
+.header_infos_text {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+}
+
+.header_infos_text h1 {
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.header_infos_text p {
+    font-weight: 400;
+    font-size: 16px;
+}

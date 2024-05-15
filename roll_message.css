@@ -1,0 +1,14 @@
+.roll_message__content p {
+    width: 100%;
+
+    color: var(--lime-300);
+    
+    text-transform: uppercase;
+    
+    font-size: 19px;
+    font-weight: 600;
+    line-height: 27px;
+
+    margin: 0;
+    white-space: pre-line;
+}

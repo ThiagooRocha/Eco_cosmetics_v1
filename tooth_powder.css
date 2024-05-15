@@ -1,0 +1,33 @@
+.jar_infos {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    height: 397px;
+}
+
+.jar_infos__list {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.jar_infos__list__item {
+    text-align: right;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.jar_infos__vector {
+    position: absolute;
+    right: -20px;
+    flex: 1;
+    width: 182px;
+    height: 100%;
+    background-image: url(./images/vector_jar.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}

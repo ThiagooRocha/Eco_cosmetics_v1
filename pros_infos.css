@@ -1,0 +1,23 @@
+.pros_infos__list {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.pros_infos__list__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.pros_infos__list__item p {
+    color: #000000;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18.2px;
+}

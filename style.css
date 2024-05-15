@@ -1,0 +1,29 @@
+@import url(./page.css);
+@import url(./header.css);
+@import url(./roll_message.css);
+@import url(./about_our_brand.css);
+@import url(./shop.css);
+@import url(./about_the_creators.css);
+@import url(./tooth_powder.css);
+@import url(./pros_infos.css);
+@import url(./contatc_us.css);
+
+
+
+:root {
+    --bg-color: #E4DFD3 ;
+    --dark-gray: #333333;
+    --gray-300: #8E8D8C;
+    --gray-200: #BDBDBD;
+    --gray-100: #F2F2F2;
+    --lime-300: #344F10;
+    --lime-200: #8C9772;
+    --lime-100: #E4DFD3;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+};
+
