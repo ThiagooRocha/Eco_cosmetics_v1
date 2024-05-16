@@ -16,6 +16,7 @@
     font-weight: 400;
     font-size: 14px;
     line-height: 18.2px;
+    transition: all var(--time-transition);
 }
 
 .title--active, .shop_product__title:hover {
@@ -23,7 +24,7 @@
     color: var(--dark-gray);
 }
 
-.title--active::after {
+.title--active::after, .shop_product__title:hover::after{
     content: '';
     position: absolute;
     bottom: -10px;
@@ -31,6 +32,7 @@
     width: 100%;
     height: 2px;
     background: var(--dark-gray);
+    animation: width_animate var(--time-transition) forwards;
 }
 
 .card_product {

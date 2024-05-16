@@ -39,7 +39,9 @@
               <p>20% of sales at a wild bird shelter</p>
             </div>
 
-            <button class="def_btn">Shop</button>
+            <div class="btn_box">
+              <button class="def_btn">Shop</button>
+            </div>
           </div>
         </div>
       </div>
@@ -100,7 +102,9 @@
             <p class="card_infos__price">160 UAH</p>
           </div>
 
-          <button class="def_btn">all products</button>
+          <div class="btn_box">
+            <button class="def_btn">all products</button>
+          </div>
         </div>
       </div>
     </section>
@@ -128,14 +132,16 @@
           <a href="#" class="page_link">Learn More</a>
         </div>
 
-        <button class="def_btn">to contact us</button>
+        <div class="btn_box">
+          <button class="def_btn">to contact us</button>
+        </div>
       </div>
     </section>
 
     <section class="tooth_powder page__section">
       <div class="wrappler">
         <h2 class="page__section__title">Ayurvedic Tooth Powder</h2>
-        
+
         <div class="jar_infos">
           <ul class="jar_infos__list">
             <li class="jar_infos__list__item">Kaolin</li>
@@ -146,9 +152,8 @@
           </ul>
           <div class="jar_infos__vector"></div>
         </div>
-        
 
-          <a href="#" class="page_link">Learn More</a>
+        <a href="#" class="page_link">Learn More</a>
       </div>
     </section>
 
@@ -187,17 +192,80 @@
           </p>
 
           <form>
-            <input type="text" name="" id="" />
-            <input type="email" name="" id="" />
-            <input type="tel" name="" id="" />
-            <textarea name="" id=""></textarea>
+            <input
+              class="def_input"
+              type="text"
+              name=""
+              id=""
+              placeholder="Your Name"
+            />
+            <input
+              class="def_input"
+              type="email"
+              name=""
+              id=""
+              placeholder="E-Mail"
+            />
+            <input
+              class="def_input"
+              type="tel"
+              name=""
+              id=""
+              placeholder="Phone Number"
+            />
+            <textarea class="your_message def_textarea" name="" id="" placeholder="Your Message"></textarea>
 
-            <button class="def_btn">send a message</button>
+            <div class="btn_box">
+              <button class="def_btn">send a message</button>
+            </div>
           </form>
         </div>
       </div>
     </section>
 
-    <footer class="footer"></footer>
+    <footer class="footer">
+      <div class="wrappler">
+        <div class="footer__content">
+          <div class="footer__nav">
+            <ul class="footer__nav__list">
+              <li class="footer__nav__list__item">
+                <a href="">Shop</a>
+              </li>
+              <li class="footer__nav__list__item">
+                <a href="">Contact</a>
+              </li>
+              <li class="footer__nav__list__item">
+                <a href="">About</a>
+              </li>
+            </ul>
+            <div class="footer__nav__sociais">
+              <a href=""><img src="./images/icons/footer_facebook.png" alt="facebook icon"></a>
+              <a href=""><img src="./images/icons/footer_instagram.png" alt="instagram icon"></a>
+            </div>
+          </div>
+
+          <div class="support_links">
+            <ul class="support_links__list">
+              <li class="support_links__list__item">
+                Ukraine
+              </li>
+              <li class="support_links__list__item">
+                <a href="">support.mountain@gmail.com</a>
+              </li>
+              <li class="support_links__list__item">
+                <a href="">+380934476839</a>
+              </li>
+              <li class="support_links__list__item">
+                Support is available Monday - Friday 9am-6pm
+              </li>
+            </ul>
+          </div>
+  
+          <div class="copyright">
+            <p>&copy; 2019 witch of mountain <br> winds</p>
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>

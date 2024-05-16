@@ -1,0 +1,24 @@
+.contact_us_content p {
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 500;
+}
+
+.contact_us_content form {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.your_message {
+    margin-top: 15px;
+    padding: 0;
+}
+
+.copyright {
+    text-align: center;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18.2px;
+}
