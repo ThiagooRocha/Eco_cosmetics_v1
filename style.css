@@ -1,5 +1,6 @@
 @import url(./page.css);
 @import url(./header.css);
+@import url(./menu.css);
 @import url(./roll_message.css);
 @import url(./about_our_brand.css);
 @import url(./shop.css);
@@ -8,7 +9,6 @@
 @import url(./pros_infos.css);
 @import url(./contatc_us.css);
 @import url(./footer.css);
-
 
 :root {
     --bg-color: #E4DFD3 ;
