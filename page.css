@@ -1,7 +1,12 @@
-body {
+.page {
+  scroll-behavior: smooth;
+}
+
+.page__body {
   font-family: "Poppins", sans-serif;
   background: var(--bg-color);
   color: var(--dark-gray);
+  scroll-behavior: smooth;
 }
 
 img {
@@ -9,12 +14,17 @@ img {
 }
 
 button {
+  cursor: pointer;
   border: none;
   background: none;
 }
 
 ul {
   list-style: none;
+}
+
+.body--menu {
+  overflow: hidden;
 }
 
 .wrappler {
@@ -31,6 +41,7 @@ ul {
 
 .def_btn {
   cursor: pointer;
+  text-decoration: none;
 
   font-family: "Poppins", sans-serif;
   border: 1px solid var(--dark-gray);

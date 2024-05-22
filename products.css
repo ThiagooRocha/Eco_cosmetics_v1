@@ -1,0 +1,43 @@
+.products {
+
+}
+
+.card_product {
+    margin-top: 27px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.card_img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card_infos__title {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 1px;
+}
+
+.card_infos__price {
+    margin-top: 10px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 1px;
+}
+
+.card_product .add-to-bag_btn {
+    margin-top: 10px;
+}
+
+.about_product {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}

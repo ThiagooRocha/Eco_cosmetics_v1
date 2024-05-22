@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="page">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -13,42 +13,47 @@
     <script type="module" src="menu.js"></script>
     <title>Eco cosmetics</title>
   </head>
-  <body>
-    <header class="header">
+  <body class="page__body">
+    <header class="header" id="header">
       <div class="wrappler">
-        <div class="header__top">
+        <div class="header__content">
           <button class="btn_menu-burguer">
             <img src="./images/icons/icon_menu.png" alt="icon menu" />
           </button>
           <div class="brand">
-            <img src="./images/icons/logo.png" alt="brand eco cosmetics" />
+            <a href="./index.html">
+              <img src="./images/icons/logo.png" alt="brand eco cosmetics" />
+            </a>
           </div>
           <div class="cart">
             <img src="./images/icons/icon_shop.png" alt="cart icon" />
           </div>
         </div>
       </div>
-      <div class="header__bottom">
-        <div class="header__banner">
+    </header>
+
+    <section class="hero">
+      <div class="hero__content">
+        <div class="hero__banner">
           <img src="./images/mobile_hero_image.png" alt="Hero image" />
         </div>
 
-        <div class="header_infos">
+        <div class="hero_infos">
           <div class="wrappler">
-            <div class="header_infos_text">
+            <div class="hero_infos_text">
               <h1>Brand of eco-cosmetics and magic candles</h1>
               <p>20% of sales at a wild bird shelter</p>
             </div>
 
             <div class="btn_box">
-              <button class="def_btn">Shop</button>
+              <a href="#shop" class="def_btn">Shop</a>
             </div>
           </div>
         </div>
       </div>
-    </header>
+    </section>
 
-    <aside class="menu">
+    <aside class="menu" id="menu">
       <div class="wrappler">
         <div class="menu__content">
           <button class="btn_menu-close">
@@ -60,13 +65,13 @@
           <nav class="nav">
             <ul class="nav__list">
               <li class="nav__list__item">
-                <a class="nav__list__item__link" href="">Shop</a>
+                <a class="nav__list__item__link" href="#shop">Shop</a>
               </li>
               <li class="nav__list__item">
-                <a class="nav__list__item__link" href="">Contact</a>
+                <a class="nav__list__item__link" href="#contact">Contact</a>
               </li>
               <li class="nav__list__item">
-                <a class="nav__list__item__link" href="">About</a>
+                <a class="nav__list__item__link" href="#about">About</a>
               </li>
             </ul>
           </nav>
@@ -84,7 +89,7 @@
       </div>
     </section>
 
-    <section class="about_our_brand page__section">
+    <section class="about_our_brand page__section" id="about">
       <div class="wrappler">
         <h2 class="page__section__title">about our brand</h2>
 
@@ -103,7 +108,7 @@
       </div>
     </section>
 
-    <section class="shop page__section">
+    <section class="shop page__section" id="shop">
       <div class="wrappler">
         <h2 class="page__section__title">Shop</h2>
       </div>
@@ -118,7 +123,13 @@
       </div>
 
       <div class="card_product">
-        <img src="./images/mobile_hydrophilic-oil.png" alt="hydrophilic oil" />
+        <div class="card_img">
+          <img
+            src="./images/mobile_hydrophilic-oil.png"
+            alt="hydrophilic oil"
+          />
+        </div>
+
         <div class="wrappler">
           <div class="card_infos">
             <h3 class="card_infos__title">Hydrophilic oil</h3>
@@ -126,7 +137,7 @@
           </div>
 
           <div class="btn_box">
-            <button class="def_btn">all products</button>
+            <a href="./products.html" class="def_btn">all products</a>
           </div>
         </div>
       </div>
@@ -204,7 +215,7 @@
       </div>
     </section>
 
-    <section class="contact_us page__section">
+    <section class="contact_us page__section" id="contact">
       <div class="wrappler">
         <h2 class="page__section__title">contact us</h2>
 
@@ -257,13 +268,13 @@
           <div class="footer__nav">
             <ul class="footer__nav__list">
               <li class="footer__nav__list__item">
-                <a href="">Shop</a>
+                <a href="#shop">Shop</a>
               </li>
               <li class="footer__nav__list__item">
-                <a href="">Contact</a>
+                <a href="#contact">Contact</a>
               </li>
               <li class="footer__nav__list__item">
-                <a href="">About</a>
+                <a href="#about">About</a>
               </li>
             </ul>
             <div class="footer__nav__sociais">
