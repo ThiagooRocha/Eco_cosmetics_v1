@@ -10,7 +10,10 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
-    <script type="module" src="menu.js"></script>
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <script type="module" src="./src/scripts/menu.js"></script>
+    <script type="module" src="./src/scripts/backToTop.js"></script>
+    <script type="module" src="./src/scripts/shop.js"></script>
     <title>Eco cosmetics</title>
   </head>
   <body class="page__body">
@@ -18,15 +21,15 @@
       <div class="wrappler">
         <div class="header__content">
           <button class="btn_menu-burguer">
-            <img src="./images/icons/icon_menu.png" alt="icon menu" />
+            <img src="./src/images/icons/icon_menu.png" alt="icon menu" />
           </button>
           <div class="brand">
             <a href="./index.html">
-              <img src="./images/icons/logo.png" alt="brand eco cosmetics" />
+              <img src="./src/images/icons/logo.png" alt="brand eco cosmetics" />
             </a>
           </div>
           <div class="cart">
-            <img src="./images/icons/icon_shop.png" alt="cart icon" />
+            <img src="./src/images/icons/icon_shop.png" alt="cart icon" />
           </div>
         </div>
       </div>
@@ -35,7 +38,7 @@
     <section class="hero">
       <div class="hero__content">
         <div class="hero__banner">
-          <img src="./images/mobile_hero_image.png" alt="Hero image" />
+          <img src="./src/images/mobile_hero_image.png" alt="Hero image" />
         </div>
 
         <div class="hero_infos">
@@ -58,7 +61,7 @@
         <div class="menu__content">
           <button class="btn_menu-close">
             <img
-              src="./images/icons/icon_close-menu.png"
+              src="./src/images/icons/icon_close-menu.png"
               alt="close menu icon"
             />
           </button>
@@ -115,17 +118,18 @@
 
       <div class="wrappler">
         <div class="shop__header">
-          <a href="#" class="shop_product__title title--active">face</a>
-          <a href="#" class="shop_product__title">body</a>
-          <a href="#" class="shop_product__title">hair</a>
-          <a href="#" class="shop_product__title">candles</a>
+          <a class="shop_product__title title--active">face</a>
+          <a class="shop_product__title">body</a>
+          <a class="shop_product__title">hair</a>
+          <a class="shop_product__title">candles</a>
         </div>
       </div>
 
       <div class="card_product">
         <div class="card_img">
           <img
-            src="./images/mobile_hydrophilic-oil.png"
+            id="card_img__img"
+            src="./src/images/mobile_hydrophilic-oil.png"
             alt="hydrophilic oil"
           />
         </div>
@@ -137,7 +141,7 @@
           </div>
 
           <div class="btn_box">
-            <a href="./products.html" class="def_btn">all products</a>
+            <a href="./src/pages/products.html" class="def_btn">all products</a>
           </div>
         </div>
       </div>
@@ -195,20 +199,20 @@
       <div class="wrappler">
         <ul class="pros_infos__list">
           <li class="pros_infos__list__item">
-            <img src="./images/icons/icon_snail.png" alt="snail icon" />
+            <img src="./src/images/icons/icon_snail.png" alt="snail icon" />
             <p>No synthetics and microplastics</p>
           </li>
 
           <li class="pros_infos__list__item">
             <img
-              src="./images/icons/icon_recyclable.png"
+              src="./src/images/icons/icon_recyclable.png"
               alt="recyclable icon"
             />
             <p>product packaging can be recycled or reused</p>
           </li>
 
           <li class="pros_infos__list__item">
-            <img src="./images/icons/icon_sheet.png" alt="sheet icon" />
+            <img src="./src/images/icons/icon_sheet.png" alt="sheet icon" />
             <p>only natural ingredients</p>
           </li>
         </ul>
@@ -262,6 +266,12 @@
       </div>
     </section>
 
+    <div class="back_to_top">
+      <div class="wrappler">
+        <a href="#header" class="back_to_top__btn"><i class="ph-bold ph-arrow-up"></i></a>
+      </div>
+    </div>
+
     <footer class="footer">
       <div class="wrappler">
         <div class="footer__content">
@@ -280,12 +290,12 @@
             <div class="footer__nav__sociais">
               <a href=""
                 ><img
-                  src="./images/icons/footer_facebook.png"
+                  src="./src/images/icons/footer_facebook.png"
                   alt="facebook icon"
               /></a>
               <a href=""
                 ><img
-                  src="./images/icons/footer_instagram.png"
+                  src="./src/images/icons/footer_instagram.png"
                   alt="instagram icon"
               /></a>
             </div>

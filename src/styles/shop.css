@@ -35,6 +35,12 @@
     animation: width_animate var(--time-transition) forwards;
 }
 
-.shop {
+.shop .card_infos__price {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.card_img__img {
 
 }

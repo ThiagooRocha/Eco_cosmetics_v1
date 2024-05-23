@@ -34,9 +34,9 @@ ul {
 }
 
 .btn_box {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .def_btn {
@@ -70,7 +70,8 @@ ul {
   color: var(--dark-gray);
 }
 
-.def_input, .def_textarea {
+.def_input,
+.def_textarea {
   outline: transparent;
   background: none;
   border: none;
@@ -86,11 +87,13 @@ ul {
   transition: all var(--time-transition);
 }
 
-.def_input:focus, .def_textarea:focus {
+.def_input:focus,
+.def_textarea:focus {
   border-bottom: 1px solid var(--dark-gray);
 }
 
-.def_input::placeholder, .def_textarea::placeholder {
+.def_input::placeholder,
+.def_textarea::placeholder {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-size: 14px;
@@ -157,17 +160,17 @@ ul {
 }
 
 @media screen and (min-width: 1280px) {
-    .wrappler {
-      width: min(1440px, 95%);
-      padding-inline: 50px;
-    }
+  .wrappler {
+    width: min(1440px, 95%);
+    padding-inline: 50px;
   }
+}
 
-  @media screen and (min-width: 1440px) {
-    .wrappler {
-      padding-inline: 130px;
-    }
+@media screen and (min-width: 1440px) {
+  .wrappler {
+    padding-inline: 130px;
   }
+}
 
 @keyframes width_animate {
   0% {
