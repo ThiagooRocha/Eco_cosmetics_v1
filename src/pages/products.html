@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="../../style.css" />
     <script src="https://unpkg.com/@phosphor-icons/web"></script>
     <script type="module" src="../scripts/menu.js"></script>
+    <script type="module" src="../scripts/cart.js"></script>
     <script type="module" src="../scripts/backToTop.js"></script>
     <title>Eco cosmetics</title>
   </head>
@@ -28,8 +29,40 @@
             </a>
           </div>
           <div class="cart">
-            <img src="../images/icons/icon_shopping-bag.png" alt="cart icon" />
+            <button>
+              <img src="../images/icons/icon_shopping-bag.png" alt="cart icon" />
+            </button>
+            <div class="cart__order">
+              <div class="cart__order__content">
+                <div class="cart__order__items">
+                  <div class="cart_product">
+                    <img src="../images/moonligth.png" />
+                    <div class="cart_product__infos">
+                      <p>Moonligth</p>
+                      <p>30 UAH</p>
+
+                      <small><span>Quant: </span>1</small>
+                    </div>
+                  </div>
+                  <div class="cart_product">
+                    <img src="../images/mobile_hero_image.png" />
+                    <div class="cart_product__infos">
+                      <p>Candle</p>
+                      <p>60 UAH</p>
+
+                      <small><span>Quant: </span>2</small>
+                    </div>
+                  </div>
+                </div>
+                <div class="cart_order__total">
+                  <strong>TOTAL:</strong>
+                  <span>2000,00</span>
+                </div>
+              </div>
+            </div>
           </div>
+
+          <div class="overlay"></div>
         </div>
       </div>
     </header>
